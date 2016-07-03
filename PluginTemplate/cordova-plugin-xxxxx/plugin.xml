@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-xxxxx"
+        version="0.0.1">
+
+  <name>Xxxxx</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/xxxxx.js" target="js/xxxxx.js"/>
+
+  <js-module src="www/xxxxx.js" name="xxxxx">
+    <clobbers target="Xxxxx" />
+  </js-module>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/widget">
+      <feature name="Xxxxx">
+        <param name="ios-package" value="XXXxxxxx" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/XXXxxxxx.h" target-dir="Xxxxx"/>
+    <source-file src="src/ios/XXXxxxxx.m" target-dir="Xxxxx"/>
+  </platform>
+
+</plugin>

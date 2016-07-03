@@ -1,0 +1,29 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"Xxxxx\"><param name=\"ios-package\" value=\"XXXxxxxx\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.helloapp"
+        },
+        "cordova-plugin-xxxxx": {
+            "PACKAGE_NAME": "com.example.helloapp"
+        }
+    },
+    "dependent_plugins": {}
+}
